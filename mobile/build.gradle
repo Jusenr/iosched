@@ -82,7 +82,6 @@ android {
     dataBinding {
         enabled true
     }
-
     signingConfigs {
         // We need to sign debug builds with a debug key to make firebase auth happy
         debug {
